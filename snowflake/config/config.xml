@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- const.xml -->
+<config>
+    <!--SnowFlake-->
+    <!--序号类型占用位-->
+    <TYPE_BIT>6</TYPE_BIT>
+    <!--时间戳占用位数-->
+    <TIMESTAMP_BIT>41</TIMESTAMP_BIT>
+    <!--序列号占用的位数-->
+    <SEQUENCE_BIT>12</SEQUENCE_BIT>
+    <!--机器标识占用的位数-->
+    <MACHINE_BIT>2</MACHINE_BIT>
+    <!--数据中心占用的位数-->
+    <TYPE_BIT>2</TYPE_BIT>
+    <DATACENTER_BIT>2</DATACENTER_BIT>
+    <!--序号类型 1 ~ 63-->
+    <type>1</type>
+    <!--数据中心 0 ~ 3-->
+    <datacenterId>0</datacenterId>
+    <!--机器标识 0 ~ 3-->
+    <machineId>0</machineId>
+</config>

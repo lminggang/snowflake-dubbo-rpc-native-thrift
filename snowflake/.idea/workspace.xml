@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="snowflake:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c9c7c1c-0542-4b97-be9c-a7b9c13ddfa4" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1073903988">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="0-SNAPSHOT" value="1" />
+          <entry key="handlers" value="1" />
+          <entry key="java" value="8" />
+          <entry key="pom" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+          <entry key="Properties" value="2" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1729" />
+          <entry key="xml" value="115" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1729" />
+          <entry key="XML" value="115" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Provider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/provider.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="33" column="62" lean-forward="true" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/impl/SnowFlakeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ThriftClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/base/TimeGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+              <folding>
+                <element signature="e#3222#3223#0" expanded="true" />
+                <element signature="e#3278#3279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://MAVEN/com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>MAVEN</ID>
+              <OriginalElement>com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT</OriginalElement>
+              <nodes>
+                <node x="366.25" y="320.0">com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT</node>
+                <node x="201.74999999999997" y="240.0">org.apache.curator:curator-framework:jar:4.0.1</node>
+                <node x="217.74999999999997" y="160.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1</node>
+                <node x="129.19642857142853" y="80.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta</node>
+                <node x="302.99999999999994" y="0.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/org.slf4j:slf4j-api:jar:1.7.5</node>
+                <node x="169.99999999999997" y="0.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/commons-cli:commons-cli:jar:1.2</node>
+                <node x="85.99999999999997" y="0.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/log4j:log4j:jar:1.2.17</node>
+                <node x="0.0" y="0.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/io.netty:netty:jar:3.10.5.Final</node>
+                <node x="247.19642857142853" y="80.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/com.google.guava:guava:jar:20.0</node>
+                <node x="338.1964285714285" y="80.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.slf4j:slf4j-api:jar:1.7.6</node>
+                <node x="371.75" y="240.0">io.netty:netty-all:jar:4.1.25.Final</node>
+                <node x="476.75" y="240.0">commons-configuration:commons-configuration:jar:1.8</node>
+                <node x="427.25" y="160.0">commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
+                <node x="573.25" y="160.0">commons-configuration:commons-configuration:jar:1.8/commons-logging:commons-logging:jar:1.1.1</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="commons-configuration:commons-configuration:jar:1.8" target="commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6">
+                  <point x="-45.75" y="-15.0" />
+                  <point x="522.5" y="215.0" />
+                  <point x="490.25" y="215.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT" target="io.netty:netty-all:jar:4.1.25.Final">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/io.netty:netty:jar:3.10.5.Final">
+                  <point x="-36.75" y="-15.0" />
+                  <point x="141.44642857142853" y="60.0" />
+                  <point x="33.0" y="60.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT" target="org.apache.curator:curator-framework:jar:4.0.1">
+                  <point x="-32.0" y="-15.0" />
+                  <point x="382.25" y="295.0" />
+                  <point x="276.75" y="295.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/log4j:log4j:jar:1.2.17">
+                  <point x="-12.25" y="-15.0" />
+                  <point x="165.94642857142853" y="50.0" />
+                  <point x="117.99999999999997" y="50.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT" target="commons-configuration:commons-configuration:jar:1.8">
+                  <point x="32.0" y="-15.0" />
+                  <point x="446.25" y="295.0" />
+                  <point x="568.25" y="295.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.apache.curator:curator-framework:jar:4.0.1" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/org.slf4j:slf4j-api:jar:1.7.5">
+                  <point x="36.75" y="-15.0" />
+                  <point x="214.94642857142853" y="60.0" />
+                  <point x="344.99999999999994" y="60.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="commons-configuration:commons-configuration:jar:1.8" target="commons-configuration:commons-configuration:jar:1.8/commons-logging:commons-logging:jar:1.1.1">
+                  <point x="45.75" y="-15.0" />
+                  <point x="614.0" y="215.0" />
+                  <point x="646.25" y="215.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta">
+                  <point x="-39.33333333333337" y="-15.0" />
+                  <point x="237.4166666666666" y="135.0" />
+                  <point x="178.19642857142853" y="135.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.slf4j:slf4j-api:jar:1.7.6">
+                  <point x="39.33333333333337" y="-15.0" />
+                  <point x="316.08333333333337" y="135.0" />
+                  <point x="380.1964285714285" y="135.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/commons-cli:commons-cli:jar:1.2">
+                  <point x="12.25" y="-15.0" />
+                  <point x="190.44642857142853" y="50.0" />
+                  <point x="226.49999999999997" y="50.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/com.google.guava:guava:jar:20.0">
+                  <point x="0.0" y="-15.0" />
+                  <point x="276.75" y="135.0" />
+                  <point x="282.69642857142856" y="135.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7692307692307693" x="312.0" y="42.05000000000001" />
+              <SelectedNodes>
+                <node>org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1</node>
+                <node>com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT</node>
+              </SelectedNodes>
+              <Categories />
+              <VISIBILITY>All</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/4.0.1/curator-framework-4.0.1.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/artifacts/snowflake_jar/config/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>netty</find>
+      <find>machineId</find>
+      <find>DATACENTER_BIT</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/SnowFlake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/snowflake/SnowFlake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/Provider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/Provider/Provider.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/resources/META-INF/spring/provider.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/server/ThriftClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/server/Provider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/base/SnowFlake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/base/PrimaryKeyGen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/base/TimeGenerator.java" />
+        <option value="$PROJECT_DIR$/config/config.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Provider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/impl/SnowFlakeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThriftClient.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/provider.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.5.4/libexec" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="snowflake" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-213" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>toString() issuesJava</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="snowflake_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yoy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yoy" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yoy" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snowflake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="snowflake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539278391533" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/artifacts/snowflake_jar" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ThriftClient">
+    <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Provider" />
+      <module name="snowflake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnowFlake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xintiaotime.yoy.SnowFlake" />
+      <module name="snowflake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThriftClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThriftClient" />
+      <module name="snowflake" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SnowFlake" />
+      <item itemvalue="Application.Provider" />
+      <item itemvalue="Application.ThriftClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThriftClient" />
+        <item itemvalue="Application.Provider" />
+        <item itemvalue="Application.SnowFlake" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c9c7c1c-0542-4b97-be9c-a7b9c13ddfa4" name="Default Changelist" comment="" />
+      <created>1539263193737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539263193737</updated>
+      <workItem from="1539263197529" duration="13497000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13497000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-213" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32970297" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" weight="0.32960597" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32960597" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/SnowFlake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="116" column="9" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="116" selection-end-column="9" />
+          <folding>
+            <element signature="e#3183#3184#0" expanded="true" />
+            <element signature="e#3239#3240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/base/SnowFlake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="e#3193#3194#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/base/PrimaryKeyGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/base/TimeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding>
+            <element signature="e#3222#3223#0" expanded="true" />
+            <element signature="e#3278#3279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/4.0.1/curator-framework-4.0.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="366.25" y="320.0">com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT</node>
+            <node x="201.74999999999997" y="240.0">org.apache.curator:curator-framework:jar:4.0.1</node>
+            <node x="217.74999999999997" y="160.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1</node>
+            <node x="129.19642857142853" y="80.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta</node>
+            <node x="302.99999999999994" y="0.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="169.99999999999997" y="0.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/commons-cli:commons-cli:jar:1.2</node>
+            <node x="85.99999999999997" y="0.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/log4j:log4j:jar:1.2.17</node>
+            <node x="0.0" y="0.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/io.netty:netty:jar:3.10.5.Final</node>
+            <node x="247.19642857142853" y="80.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/com.google.guava:guava:jar:20.0</node>
+            <node x="338.1964285714285" y="80.0">org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.slf4j:slf4j-api:jar:1.7.6</node>
+            <node x="371.75" y="240.0">io.netty:netty-all:jar:4.1.25.Final</node>
+            <node x="476.75" y="240.0">commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="427.25" y="160.0">commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
+            <node x="573.25" y="160.0">commons-configuration:commons-configuration:jar:1.8/commons-logging:commons-logging:jar:1.1.1</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="commons-configuration:commons-configuration:jar:1.8" target="commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6">
+              <point x="-45.75" y="-15.0" />
+              <point x="522.5" y="215.0" />
+              <point x="490.25" y="215.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT" target="io.netty:netty-all:jar:4.1.25.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/io.netty:netty:jar:3.10.5.Final">
+              <point x="-36.75" y="-15.0" />
+              <point x="141.44642857142853" y="60.0" />
+              <point x="33.0" y="60.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT" target="org.apache.curator:curator-framework:jar:4.0.1">
+              <point x="-32.0" y="-15.0" />
+              <point x="382.25" y="295.0" />
+              <point x="276.75" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/log4j:log4j:jar:1.2.17">
+              <point x="-12.25" y="-15.0" />
+              <point x="165.94642857142853" y="50.0" />
+              <point x="117.99999999999997" y="50.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT" target="commons-configuration:commons-configuration:jar:1.8">
+              <point x="32.0" y="-15.0" />
+              <point x="446.25" y="295.0" />
+              <point x="568.25" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:4.0.1" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/org.slf4j:slf4j-api:jar:1.7.5">
+              <point x="36.75" y="-15.0" />
+              <point x="214.94642857142853" y="60.0" />
+              <point x="344.99999999999994" y="60.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="commons-configuration:commons-configuration:jar:1.8" target="commons-configuration:commons-configuration:jar:1.8/commons-logging:commons-logging:jar:1.1.1">
+              <point x="45.75" y="-15.0" />
+              <point x="614.0" y="215.0" />
+              <point x="646.25" y="215.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta">
+              <point x="-39.33333333333337" y="-15.0" />
+              <point x="237.4166666666666" y="135.0" />
+              <point x="178.19642857142853" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.slf4j:slf4j-api:jar:1.7.6">
+              <point x="39.33333333333337" y="-15.0" />
+              <point x="316.08333333333337" y="135.0" />
+              <point x="380.1964285714285" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/org.apache.zookeeper:zookeeper:jar:3.5.3-beta/commons-cli:commons-cli:jar:1.2">
+              <point x="12.25" y="-15.0" />
+              <point x="190.44642857142853" y="50.0" />
+              <point x="226.49999999999997" y="50.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1" target="org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1/com.google.guava:guava:jar:20.0">
+              <point x="0.0" y="-15.0" />
+              <point x="276.75" y="135.0" />
+              <point x="282.69642857142856" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7692307692307693" x="312.0" y="42.05000000000001" />
+          <SelectedNodes>
+            <node>org.apache.curator:curator-framework:jar:4.0.1/org.apache.curator:curator-client:jar:4.0.1</node>
+            <node>com.xintiaotime.yoy.snowflake:snowflake:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xintiaotime/yoy/impl/SnowFlakeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/snowflake_jar/config/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="33" column="62" lean-forward="true" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThriftClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>snowflake:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>snowflake</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.guava:guava:20.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
